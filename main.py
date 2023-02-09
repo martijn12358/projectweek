@@ -16,7 +16,7 @@ pytesseract.pytesseract.tesseract_cmd = "C:/Program Files/Tesseract-OCR/tesserac
 
 size = 1600
 
-img = cv2.imread('test_ball_3.png')
+img = cv2.imread('test_ball_2.jpg')
 img = cv2.resize(img, [size, size])
 img = img[int(size/4):int(size/4*3), int(size/4):int(size/4*3)]
 #img = cv2.rotate(img, cv2.ROTATE_180)
